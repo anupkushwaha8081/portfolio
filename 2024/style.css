@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /* font-family: 'Protest+Riot; */
+    color: black;
+    height: 50px;
+    /* border: 2px solid black; */
+    text-decoration: none;
+    background-color: black;
+}
+nav li img{
+    height: 35px;
+    width: 35px;
+}
+nav li{
+    font-family: 'Protest Riot', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Ubuntu Condensed', sans-serif; */
+}
+.brand{
+ display: flex;
+
+ align-items: center;
+ font-size: 1.4rem;
+ /* padding:10px; */
+ gap: 5px;
+ font-weight: bold;
+ color: white;
+ 
+}
+.FIRST{
+    display: flex;
+    color: white;
+    font-size: small;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    
+}
+.container{
+    min-height: 61vh;
+    /* min-width: 7vh; */
+    /* background-color: black; */
+    background-image: url('containerimage.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    margin: 25px auto;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.songItemPlay{
+    cursor: pointer;
+}
+.mainbottom{
+    display: flex;
+    background-color: black;
+    position: sticky;
+
+}
+.bottom2 img{
+    height: 45px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    /* bottom:10px ; */
+    position: sticky;
+    bottom: 0%;
+
+
+}
+.firstimg{
+    height: 30px;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+    position: absolute;
+    right: 20px;
+    /* margin-right: 0%; */
+}
+.secondimg{
+        height: 30px;
+        padding-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+        right: 70px;
+        /* margin-right: 0%; */
+    
+}
+.thirdimg{
+    height: 30px;
+        padding-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+        right: 120px;
+}
+.timebuttom{
+    margin-right: 350px;
+}
+.songItem{
+    display: flex;
+    margin: 5px;
+    background-color: white;
+    /* width: 70%; */
+    /* gap: 10px; */
+    border-radius: 20px;
+    color:black;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem:hover{
+    background-color: burlywood;
+}
+.songlist h2{margin-bottom: 30px;
+    /* gap: 2px; */
+}
+.songlistimg{
+    height: 25px;
+    width: 30px;
+    margin: 2px 20px;
+    border: 2px solid blue ;
+    border-radius: 100%;
+}
+.timestamp{
+    margin: 0 20px;
+    display: flex;
+}
+.timestamp img{
+    /* color: black; */
+    height: 13x;
+    padding-left: 5px;
+    /* margin: 3px; */
+}
+.giftimg{
+    height: 10px;
+}
+.icons{
+    display: flex;
+    cursor: pointer;
+    height: 25px;
+    padding: 10px;
+    width: 30px;
+
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+    height: 5px;
+    /* text-align: right; */
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    height: 20px;
+    width: 30px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    padding-right: 10px;
+    margin-right: 50px;
+    margin-left:-120px;
+
+}

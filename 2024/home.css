@@ -1,0 +1,6 @@
+.wrapper{
+    background-color: black;
+    width: 80%;
+    max-height: 50%;
+    border: 2px solid red;
+}
